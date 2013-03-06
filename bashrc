@@ -7,7 +7,6 @@
 if [[ -n "$PS1" ]] ; then
     # check the window size after each command and, if necessary,
     # update the values of LINES and COLUMNS.
-    shopt -s checkwinsize
 
     # make less more friendly for non-text input files, see lesspipe(1)
     [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
@@ -75,12 +74,6 @@ if [[ -n "$PS1" ]] ; then
         . ~/.bash_aliases
     fi
 
-    # enable programmable completion features (you don't need to enable
-    # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
-    # sources /etc/bash.bashrc).
-    if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
-        . /etc/bash_completion
-    fi
 fi
 
 # load my bashrc file
@@ -89,21 +82,7 @@ fi
 #     . ~/.bashrc_oracle
 # fi
 
-if [ -f ~/.bashrc_mobi ]; then
-    . ~/.bashrc_mobi
-fi
-
-if [ -f ~/.bashrc_twtb ]; then
-    . ~/.bashrc_twtb
-fi
-
 if [ -f ~/.bashrc_xfun68 ]; then
     . ~/.bashrc_xfun68
-fi
-
-if [ -d ~/.bash_completion.d ]; then
-    for completion_file in `ls ~/.bash_completion.d/`; do
-      . "$HOME/.bash_completion.d/$completion_file"
-    done
 fi
 

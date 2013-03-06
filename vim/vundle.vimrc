@@ -55,6 +55,10 @@ Bundle 'michaeljsmith/vim-indent-object'
 
 Bundle 'avakhov/vim-file-line'
 
+Bundle 'Lokaltog/vim-powerline'
+
+Bundle 'widox/vim-buffer-explorer-plugin'
+
 Bundle 'nathanaelkane/vim-indent-guides'
 let g:indent_guides_start_level = 4
 

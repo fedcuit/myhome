@@ -40,13 +40,6 @@
   last = log -1 HEAD
   g = grep --break --heading --line-number
 
-  # Fancy logging.
-  #   h = head
-  #   hp = head with patch
-  #   r = recent commits, only current branch
-  #   ra = recent commits, all reachable refs
-  #   l = all commits, only current branch
-  #   la = all commits, all reachable refs
   l = log --graph --pretty=format:'%C(yellow)%h%Creset %C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=short
   la = log --all --graph --pretty=format:'%C(yellow)%h%Creset %C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=short
   head = !git l -1

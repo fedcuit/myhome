@@ -64,7 +64,7 @@ catch
 endtry
 
 set fileformats=unix,dos,mac
-
+" 
 " Smart way to resize windows
 map - <C-W>-
 map + <C-W>+
@@ -176,7 +176,7 @@ endif
 nnoremap <silent> <LocalLeader>bi :BundleInstall<CR>
 nnoremap <silent> <LocalLeader>bc :BundleClean<CR>
 nnoremap <silent> <LocalLeader>bl :BundleList<CR>
-nnoremap <silent> <LocalLeader>bs :BundleSearch<CR>
+"nnoremap <silent> <LocalLeader>bs :BundleSearch<CR>
 
 " Duplication
 nnoremap <leader>c mz"dyy"dp`z
