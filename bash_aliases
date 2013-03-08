@@ -23,8 +23,6 @@ alias tmp='cd ~/tmp/'
 
 alias hi=' history | less +G'
 
-alias vim="/Applications/MacVim.app/Contents/MacOS/Vim"
-
 alias vimrc='vim ~/.vimrc'
 
 alias grep='grep -a --color=auto'
