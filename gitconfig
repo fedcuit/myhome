@@ -1,9 +1,8 @@
 [user]
-  name = Xiaofeng Wang
-  email = xfwang@thoughtworks.com
+  name = Erdong Feng 
+  email = edfeng@thoughtworks.com
 [github]
-  user = xfun68
-  token = 32cdfd74703f29e79a265479a5dc35c1
+  user = fedcuit
 [core]
   autocrlf = input
   pager = less -FRSX
