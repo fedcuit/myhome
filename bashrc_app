@@ -1,7 +1,6 @@
-#autojump
-[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
-
 #macvim
 if [[ -f /Applications/MacVim.app/Contents/MacOS/Vim ]]; then
  alias vim="/Applications/MacVim.app/Contents/MacOS/Vim"
 fi
+
+
