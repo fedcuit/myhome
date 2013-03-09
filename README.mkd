@@ -1,14 +1,22 @@
-# myhome
-
-All of my customized stuff are here.
-
--------------------------------------------------------------------------
 
 ### Usage
 
-```bash
-$ git clone git://github.com/xfun68/myhome.git
-$ cd myhome
-$ ./RUN_ME_TO_INSTALL
-```
+1. install autojump
+    * `brew install autojump`
+2. install vim
+    * `brew install macvim`
+3. install ack
+    * `brew install ack`
+4. install oh-my-zsh
 
+    ```bash
+    curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+    ```
+
+5. run `RUN_ME_TO_INSTALL`
+
+    ```bash
+    $ git clone git://github.com/fedcuit/myhome.git
+    $ cd myhome
+    $ ./RUN_ME_TO_INSTALL
+    ```
