@@ -46,5 +46,7 @@ ln_it_to_home "ackrc"
 
 ln_it_to_home "zshrc"
 
+ln_it_to_home "bashrc_app"
+
 # setup vim
 vim +BundleInstall +qall
