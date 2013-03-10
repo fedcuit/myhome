@@ -111,7 +111,7 @@ let g:solarized_visibility = "high"
 let g:solarized_contrast = "high"
 colorscheme solarized
 
-set colorcolumn=81
+" set colorcolumn=81
 
 " Set 1 line to the curors - when moving vertical..
 set so=1
