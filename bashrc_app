@@ -1,5 +1,5 @@
 #macvim
-if [ $commands[mvim] ]; then
+if [ "Darwin" == $(uname) ]; then
  alias vim="mvim -v"
 fi
 
