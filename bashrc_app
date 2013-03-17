@@ -8,3 +8,9 @@ fi
 
 #autojump
 [[ -s ~/.autojump/etc/profile.d/autojump.zsh ]] && . ~/.autojump/etc/profile.d/autojump.zsh
+
+#java
+JAVA_HOME="/vagrant/jdk_home"
+PATH=$PATH:$JAVA_HOME/bin
+
+export PATH
