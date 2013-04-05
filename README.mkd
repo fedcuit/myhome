@@ -1,13 +1,18 @@
 
 ### Usage
 
-1. install autojump
+0. update system
+    * `sudo apt-get update`
+0. install autojump
+    * `sudo apt-get install autojump`
     * `brew install autojump`
 2. install vim
+    * `sudo apt-get install vim-gnome`
     * `brew install macvim`
-3. install ack
-    * `brew install ack`
-4. install oh-my-zsh
+3. install ack and curl
+    * `sudo apt-get instaall ack curl`
+    * `brew install ack curl`
+4. install oh-my-zsh(Do not install on vagrant box, because zsh has a bad performance on it)
 
     ```bash
     curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
