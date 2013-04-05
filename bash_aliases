@@ -60,3 +60,4 @@ alias t='task'
 #for vagrant
 alias vssh="vagrant ssh"
 alias vup="vagrant up"
+alias v="cd /vagrant"
