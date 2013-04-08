@@ -64,4 +64,4 @@ alias vup="vagrant up"
 alias v="cd /vagrant"
 
 #for maven
-alias mci="mven clean install"
+alias mci="mvn clean install"
