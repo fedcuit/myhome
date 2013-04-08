@@ -6,6 +6,7 @@ alias l='ls -hlFG'
 alias rm='rm -i' # DON'T USE rm -rf ALWAYS, BE CAREFUL
 alias rdf='rm -rf'
 
+alias ..="cd .."
 alias up='cd ..'
 alias up2='cd ../..'
 alias up3='cd ../../..'
@@ -61,3 +62,6 @@ alias t='task'
 alias vssh="vagrant ssh"
 alias vup="vagrant up"
 alias v="cd /vagrant"
+
+#for maven
+alias mci="mven clean install"
