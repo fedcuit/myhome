@@ -1,7 +1,7 @@
 #macvim
-if [ "Darwin" == $(uname) ]; then
- alias vim="mvim -v"
-fi
+# if [ "Darwin" == $(uname) ]; then
+#  alias vim="mvim -v"
+# fi
 
 #rvm
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
