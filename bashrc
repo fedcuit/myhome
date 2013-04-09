@@ -6,3 +6,6 @@ fi
 if [[ -f ~/.bashrc_app ]]; then
  . ~/.bashrc_app 
 fi
+
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
