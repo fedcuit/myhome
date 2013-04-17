@@ -66,3 +66,5 @@ alias v="cd /vagrant"
 #for maven
 alias m="mvn"
 alias mci="m clean install"
+alias midea="m idea:idea"
+alias mrun="m jetty:run"
