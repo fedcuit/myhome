@@ -10,8 +10,8 @@
     * `sudo apt-get install vim-gnome`
     * `brew install macvim`
 3. install ack and curl
-    * `sudo apt-get instaall ack curl`
-    * `brew install ack curl`
+    * `sudo apt-get install ack curl git`
+    * `brew install ack curl git`
 4. install oh-my-zsh(Do not install on vagrant box, because zsh has a bad performance on it)
 
     ```bash
