@@ -5,6 +5,7 @@ alias l='ls -hlFG'
 
 alias rm='rm -i' # DON'T USE rm -rf ALWAYS, BE CAREFUL
 alias rdf='rm -rf'
+alias mkdir='mkdir -p'
 
 alias ..="cd .."
 alias up='cd ..'
